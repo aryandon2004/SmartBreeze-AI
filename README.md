@@ -127,12 +127,6 @@ This system helps in:
 
 ---
 
-## 👨‍💻 Author
-
-**Aryan Dongare**
-
----
-
 ## ⭐ If you like this project
 
 Give it a star ⭐ on GitHub!
