@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f6f4ee;
+}
+
+/* Layout */
+.app {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #2c1f0f;
+  color: #d4d4d4;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;  
+}
+
+.menu-item {
+  padding: 12px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 30px;
+   margin-left: 220px;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #e6e0d4;
+  cursor: pointer;
+}
+/* SECTION TITLE */
+.section-title {
+  letter-spacing: 2px;
+  font-size: 14px;
+  color: #6b8e6b;
+  margin-bottom: 15px;
+}
+
+/* CARD STYLE */
+.climate-card {
+  margin-top: 20px;
+}
+
+/* AIR CONTROL ROW */
+.air-control {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* TOGGLE SWITCH */
+.toggle {
+  width: 60px;
+  height: 30px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.toggle.active {
+  background: #5c8f5c;
+}
+
+.circle {
+  width: 26px;
+  height: 26px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: 0.3s;
+}
+
+.toggle.active .circle {
+  left: 32px;
+}
+
+/* TEXT */
+.air-text h4 {
+  margin: 0;
+}
+
+.active-text {
+  color: #4caf50;
+}
+
+.inactive-text {
+  color: #aaa;
+}
+
+/* MODE BUTTONS */
+.mode-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #f3efe9;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.mode-btn:hover {
+  background: #e8e2d9;
+}
+
+.mode-btn.selected {
+  background: #dfeadf;
+  color: #2e5d2e;
+  font-weight: bold;
+}
