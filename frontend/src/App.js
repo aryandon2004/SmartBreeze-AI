@@ -9,7 +9,7 @@ import {
   ResponsiveContainer
 } from "recharts";
 
-const API = "http://127.0.0.1:5001";
+const API = "https://smartbreeze-ai.onrender.com";
 
 function App() {
 

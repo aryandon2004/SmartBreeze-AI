@@ -1,0 +1,1 @@
+mongodb+srv://dongarearyan31_db_user:<db_password>@cluster0.mixfjj9.mongodb.net/?appName=Cluster0
